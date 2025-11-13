@@ -22,6 +22,11 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
         };
+
+        zenkaku-hankaku {
+            bindings = <&kp LANGUAGE_5>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
