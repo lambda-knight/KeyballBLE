@@ -103,10 +103,10 @@
 
         MOUSE {
             bindings = <
-&trans    &trans     &trans     &trans           &trans                                  &trans    &trans     &trans     &trans     &trans
-&mkp MB4  &mkp LCLK  &mkp MCLK  &mkp RCLK        &mkp MB5         &mkp RCLK      &trans  &mkp MB4  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB5
-&trans    &trans     &trans     &msc MOVE_X(20)  &msc MOVE_Y(20)  &mkp LCLK      &trans  &trans    &trans     &trans     &trans     &trans
-&trans    &trans     &trans     &trans           &trans           &trans         &trans  &trans                                     &trans
+&trans    &trans     &trans     &trans          &trans                                 &trans    &trans     &trans     &trans     &trans
+&mkp MB4  &mkp LCLK  &mkp MCLK  &mkp RCLK       &mkp MB5        &mkp RCLK      &trans  &mkp MB4  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB5
+&trans    &trans     &trans     &msc MOVE_X(5)  &msc MOVE_Y(5)  &mkp LCLK      &trans  &trans    &trans     &trans     &trans     &trans
+&trans    &trans     &trans     &trans          &trans          &trans         &trans  &trans                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
